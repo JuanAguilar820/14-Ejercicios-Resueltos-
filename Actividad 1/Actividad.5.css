@@ -1,0 +1,13 @@
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+figure {
+    text-align: center;
+}
+img {
+    width: 200px;
+    height: 200px;
+}

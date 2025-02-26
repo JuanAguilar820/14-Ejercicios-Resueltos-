@@ -1,0 +1,13 @@
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 2px solid rgb(61, 2, 104);
+        }
+        th, td {
+            border: 1px solid rgb(0, 225, 255);
+            padding: 20px;
+            text-align: center;
+        }
+        th {
+            background-color: lightgray;
+        }

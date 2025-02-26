@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: rgb(255, 0, 221);
+    text-align: center;
+    padding: 50px;
+    background-image: url(Imagenes/Goku.1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/* Estilizar el título */
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Párrafo con animación */
+p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 20px;
+    opacity: 0;
+    animation: slideUp 1.5s ease-in-out forwards 0.5s;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

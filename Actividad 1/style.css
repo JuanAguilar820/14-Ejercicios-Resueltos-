@@ -1,0 +1,18 @@
+body{
+    background-image: url(./Imagenes/FORO\ 2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    
+}
+th {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(0, 255, 55);
+}
